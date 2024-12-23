@@ -1,0 +1,88 @@
+/* Signup Section */
+.signup-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(45deg, #1a1a1a, #121212);
+    color: #fff;
+    padding: 40px 20px;
+}
+
+.signup-container {
+    background: #1e1e1e;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.signup-container h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #ffa500;
+}
+
+.signup-container .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.signup-container label {
+    font-size: 0.9rem;
+    color: #ccc;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.signup-container input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background: #121212;
+    color: #fff;
+}
+
+.signup-container input:focus {
+    border-color: #ffa500;
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 165, 0, 0.5);
+}
+
+.signup-container .cta-button {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    background: linear-gradient(45deg, #ff7e5f, #feb47b);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.signup-container .cta-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(255, 126, 95, 0.8);
+}
+
+.signup-container .login-link {
+    margin-top: 15px;
+    font-size: 0.9rem;
+    color: #ccc;
+}
+
+.signup-container .login-link a {
+    color: #ffa500;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.signup-container .login-link a:hover {
+    color: #ff4500;
+}
